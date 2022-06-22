@@ -19,6 +19,8 @@ const options = {
 
 fetch(`https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats?country=${country}`, options)
 	.then(response => response.json())
-	.then(response => console.log(response))
+	.then(data => {
+        document.getElementById('death').innerHTML = data.data.covid19Stats[0].deaths
+    })
 	.catch(err => console.error(err));
 })
