@@ -108,10 +108,10 @@ Death{
     width: 100px;
     margin: 5px;
     border-radius: 8px;
-    background-color:red
+    /* background-color:red */
 }
 .three{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 100%;
     height: 50%;
     text-align: center;
