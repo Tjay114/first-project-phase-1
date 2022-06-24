@@ -19,8 +19,17 @@ const options = {
 
 fetch(`https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats?country=${country}`, options)
 	.then(response => response.json())
-	.then(data => {
-        document.getElementById('death').innerHTML = data.data.covid19Stats[0].deaths
+	.then(data => { 
+		console.log(data.data.covid19Stats[0]);
+		
+
+        document.getElementById('death').innerHTML = data.data.covid19Stats[0].deaths ?? 0
+        // document.getElementById('confirmed').innerHTML = data.data.covid19Stats[0].confirmed || 0
+        document.getElementById('recovered').innerHTML = data.data.covid19Stats[0].recovered ?? 0
+
+		//  confirmed.append(res[data].Confirmed)
+		//  recovered.append(res[data].Recovered)
+		//  deaths.append(res[data].Deaths)
     })
-	.catch(err => console.error(err));
+	// .catch(err => console.error(err));
 })

@@ -36,16 +36,16 @@ Recovered{
     width: 120px;
     margin: 5px;
     border-radius: 8px;
-    background-color: darkseagreen;
+    /* background-color: darkseagreen; */
 }
 
- Confirmed{
-    height: 90%;
+/* Confirmed{
+    height: 50%;
     width: 120px;
-    margin: 5px;
+    margin: 5px; 
     border-radius: 8px;
-    background-color: lightblue;
- }
+    background-color: lightblue; 
+ } */
 
 .stats-container{
 display: flex;
@@ -81,10 +81,20 @@ justify-content: space-between;
     text-align: center;
     margin-left: 40%;
 }
+.one{
+    width: 100%;
+    height:50% ;
+    text-align: center;
+    background-color: blue;
+    
+    /* Recovered */
+}
+
 .two{
     width: 100%;
     height: 80%;
     text-align: center;
+    /* confirmed  */
     
 }
 /* .child > .child-status{
@@ -94,13 +104,23 @@ justify-content: space-between;
 */
 
 Death{
-    height: 90%;
-    width: 120px;
+    height: 80%;
+    width: 100px;
     margin: 5px;
     border-radius: 8px;
     background-color:red
 }
+.three{
+    background-color: aquamarine;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    /* Deaths */
+}
 
-id{
-    height: 100%;
+h1{
+    cursor: pointer;
+    background-color: beige;
+    height: 50%;
+    width: 100%;
 }
