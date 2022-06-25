@@ -1,5 +1,5 @@
 body{
-    background: whitesmoke;
+    /* background: whitesmoke; */
     text-size-adjust: 16px;
     
 
@@ -57,7 +57,7 @@ justify-content: space-between;
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 10px;
     align-items: center;
     width: 25%;
@@ -120,11 +120,11 @@ Death{
 
 h1{
     cursor: pointer;
-    background-color: beige;
+    /* background-color: beige; */
     height: 50%;
     width: 100%;
 }
-.header__moon{
+/* .header__moon{
     display:flex;
     align-items: center;
     margin-left: 18px;
@@ -132,4 +132,4 @@ h1{
     color: var(--text-color);
     cursor:pointer;
     transition: .3s;
-}
+} */
