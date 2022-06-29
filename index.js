@@ -32,3 +32,8 @@ fetch(`https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats?country=$
 	
 })
 
+function myFunction() {
+	var element = document.body;
+	element.classList.toggle.icon("dark-mode");
+  }
+

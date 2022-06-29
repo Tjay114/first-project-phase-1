@@ -12,18 +12,18 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body style="background-image: url('image 12.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-size: 100% 100%;">
-    <img src="bxs-moon.svg" id="icon">
     <h1 style="text-align:center;">Covid19 Tracker </h1>
     <form id="myForm">
         <input type="text" id="country" placeholder="Country Name" required>
         <input type="submit" value="Get Data"> 
     </form>
-       <div class="nav-links">
-          <a href="#">Home</a>
-          <a href="#">Prevention</a>
-          <a href="#">Syptoms</a>
-          <a href="#">Analytics</a>
-          <a href="#">EN</a>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Prevention</a>
+        <a href="#">Symptoms</a>
+        <a href="#">Analytics</a>
+        <a href="#">EN</a>
+        <img src="bxs-moon.svg" id="icon">
      </div>
         
         
@@ -35,34 +35,49 @@
                     
                 </div> -->
             </div>
-          <div class="confirmed child">
-            <div id="confirmed" class="child-status two">
-                <div class="child-status two">
-                    <p>Confirmed</p>
+            
+         <div class="confirmed child">
+            <div id="confirmed" class="child-status">
+                <div class="child-status">
+                    <div class="card">
+
+                    </div>
                 </div>
             </div>
-          </div>
-                    
-                    
-                    <div class="recovered child"> 
-                        <div id="recovered" class="child-status one">
-                            <div class="child-status one">
-                                <p>Recovered</p>
+            <div id="confirmed-value">
+                <p><strong>Confirmed</strong></p>
+            </div>
+         </div>
         
-                                    </div>
-                                </div>
-                            </div>
-
-            <div class="deaths child">
-                <div id="death" class="child-status three">
-                <!-- <p>54783643</p> -->
-                
-                <p>Deaths</p>
-                                </div>
-                            </div>
-                     </div>
-
-
+        
+        <div class="recovered child"> 
+            <div id="recovered" class="child-status one">
+                <div class="child-status one">
+                    <div class="card1">
+                       
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="recovered-value">
+                <p><strong>Recovered</strong></p>
+            </div>
+        </div>
+        
+        <div class="deaths child">
+            <div id="death" class="child-status three">
+                <div class="card2">
+                    
+                </div>
+            </div>
+            <div id="death-value">
+                <p><strong>Deaths</strong></p>
+            </div>
+        </div>
+    </div>
+    
+    
         <div id="contact">
             <h1>Contact Us</h1>
 
